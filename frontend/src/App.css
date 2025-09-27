@@ -188,3 +188,59 @@ h1 {
 p {
   font-size: 1.2rem;
 }
+
+/* -------------------culture--------------------- */
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1b5e20;
+}
+
+.section-subtitle {
+  color: #555;
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Culture Card */
+.culture-card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.culture-card img {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.culture-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.culture-card:hover img {
+  transform: scale(1.1);
+}
+
+.card-title {
+  color: #ff874d;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
