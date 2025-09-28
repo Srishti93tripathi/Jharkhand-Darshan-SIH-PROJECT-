@@ -4,6 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from './component/landingPage/Home';
 import About from './component/landingPage/About';
+import Media from './component/landingPage/Media';
 import Footer from './component/landingPage/Footer';
 import './App.css'
 
@@ -15,6 +16,7 @@ function App() {
      <Routes>
        <Route path="/" element={<Home />} />
        <Route path="/about" element={<About />} />
+       <Route path="/media" element={<Media />} />
      </Routes>
      <Footer/>
      </BrowserRouter>
